@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/new_word_tswana"
+        android:title="Tswana"
+        android:showAsAction="always"/>
+
+    <item android:id="@+id/new_words_zulu"
+        android:title="Zulu"
+        android:showAsAction="always"/>
+
+</menu>

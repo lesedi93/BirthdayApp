@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MiWok</string>
+    <string name="number_name">Number</string>
+    <string name="family_name">Family Member</string>
+    <string name="colour_name">Colour</string>
+    <string name="phrase_name">Phrase</string>
+    <string name="new_words" />
+    <string name="Setswana" />
+    <string name="Tswana" />
+    <string name="Zulu" />
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codetribe.www.miwok.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+
+        android:text="Numbers"
+        android:background="@color/category_numbers"
+        android:onClick="openNumberList"
+        style="@style/categoryStyle"
+        android:layout_height="@dimen/list_item_height" />
+
+    <Button
+        android:text="Family Members"
+        android:background="@color/category_family"
+        android:onClick="openFamilyMember"
+        style="@style/categoryStyle"
+        android:layout_height="@dimen/list_item_height" />
+
+    <Button
+
+        android:text="Colours"
+        android:background="@color/category_colors"
+        android:onClick="openColour"
+        style="@style/categoryStyle"
+        android:layout_height="@dimen/list_item_height" />
+    <Button
+        android:text="Phrases"
+        android:background="@color/category_phrases"
+        android:onClick="openPhrase"
+        style="@style/categoryStyle"
+        android:layout_height="@dimen/list_item_height" />
+
+</LinearLayout>
